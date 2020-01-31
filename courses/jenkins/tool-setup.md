@@ -1,8 +1,8 @@
-## 1. Tool setup
----
+# 1. Tool setup
+
 NOTE: Please replace <username> with your actual LDAP username
 
-### 1.1 Java
+## 1.1 Java
 Execute the following on your windows command prompt
 
 ```C:\Users\<username>\Documents\>java -version```
@@ -29,7 +29,7 @@ Typically java should be installed by default on your laptop. If not
         Java(TM) SE Runtime Environment (build 1.8.0_241-b07)
         Java HotSpot(TM) 64-Bit Server VM (build 25.241-b07, mixed mode)
 
-### 1.2 Jenkins
+## 1.2 Jenkins
 Since you cannot install Jenkins on your local machine with the windows installer I would suggest downloaing the "Generic Java package"
 
 ```http://mirrors.jenkins.io/war-stable/latest/jenkins.war```
@@ -58,7 +58,7 @@ Since you cannot install Jenkins on your local machine with the windows installe
 
 **Viola!** You are logged in. Now change your admin password.
 
-### 1.3 Java JDK
+## 1.3 Java JDK
 
 JDK is necessary for Maven and may not be installed on your laptop and you may also not have rights to install it. Follow the steps mentioned in the link below to install JDK without admin rights.
 
@@ -73,7 +73,7 @@ After you completed the steps mentioned in the link above check if jdk works,
     C:\Users\<username>\Documents\JavaJDK\bin>javac -version 
     javac 1.8.0_241
 
-### 1.4 Maven
+## 1.4 Maven
 
 - Search online and download (zip/tar file e.g. apache-maven-3.6.2-bin) and unzip to your documents directory e.g.
     
@@ -135,7 +135,7 @@ After you completed the steps mentioned in the link above check if jdk works,
         
         - Save the file
 
-### 1.5 Git
+## 1.5 Git
 
 - No admin rights on Windows? Use the portable edition. Don’t forget to add the path with git.exe to your PATH variable
 
@@ -178,7 +178,7 @@ After you completed the steps mentioned in the link above check if jdk works,
 
     Edit the C:\Users\<username>\.gitconfig file and delete the contents manually
 
-### 1.6 Tomcat
+## 1.6 Tomcat
 
 We need tomcat webserver to deploy our test app. This can be skipped for now but is necessary for future lessons.
 
@@ -227,7 +227,7 @@ We need tomcat webserver to deploy our test app. This can be skipped for now but
 
 
 <a name="final_check"></a>
-## 2. Final Check
+# 2. Final Check
 
 You have installed the following tools under your ```C:\Users\<username>\Documents``` directory
 
